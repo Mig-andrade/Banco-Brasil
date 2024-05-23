@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transações</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="img/trans.png" rel="icon">
+    <script src="https://kit.fontawesome.com/18806476a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="transbody">
+    <nav id="navmenu" class="navbar collapsible-container navbar-expand-lg bg-body-tertiary">
+        <div class="navcontainer">
+            <a data-toggle="collapse" class="collapsiblelogo" href="#">
+                <img onclick="retirar(this)" id="logo" src="img/logomini.png">
+            </a>
+            <div class="collapsed"><img id="test" src="img/logo.png"></div>
+            <ul>
+                <li>
+                    <a class="nav-link" aria-current="page" href="home.html">
+                        <i id="house" class="fa-solid fa-house"></i>
+                        <div class="collapsed collapsed-text" id="collapsehome">Home</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link active" href="saldo.html">
+                        <i id="card" class="fa-solid fa-money-check-dollar"></i>
+                        <div class="collapsed collapsed-text" id="collapsesaldo">Saldo</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="investimentos.html">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <div class="collapsed collapsed-text" id="collapseinvest">Investimentos</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="transacoes.html">
+                        <i id="handshake" class="fa-solid fa-handshake"></i>
+                        <div class="collapsed collapsed-text" id="collapsebank">Transações <b>Bancárias</b></div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">
+                        <i id="user" class="fa-solid fa-user"></i>
+                        <div class="collapsed collapsed-text" id="collapselogin">Login</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="transdiv1">
+        <div class="saldotextinvest">
+            <i class="fa-solid fa-handshake transmoney"></i>
+            <div id="transaction">
+                <span id="transfer">Transferência enviada para:</span>
+                <br>
+                <p id="transaccount">Luiz Felipe Sato</p>
+                <p id="transaccount2"> R$ 500,00</p>
+            </div>
+        </div>
+    </div>
+    <div class="transdiv2">
+        <div class="saldotextinvest">
+            <i class="fa-solid fa-handshake transmoney"></i>
+            <div id="transaction">
+                <span id="transfer">Transferência recebida de:</span>
+                <br>
+                <p id="transaccount">Miguel Estevam Reis</p>
+                <p id="transaccount2"> € 2500,00</p>
+            </div>
+        </div>
+    </div>
+    <div class="transdiv3">
+        <div class="saldotextinvest">
+            <i class="fa-solid fa-handshake transmoney"></i>
+            <div id="transaction">
+                <span id="transfer">Transferência enviada para:</span>
+                <br>
+                <p id="transaccount">Wilton Ruffato Wonrath</p>
+                <p id="transaccount2"> ¥ 50000,00</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

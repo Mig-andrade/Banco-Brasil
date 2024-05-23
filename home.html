@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link href="img/home.png" rel="icon">
+  <script src="https://kit.fontawesome.com/18806476a1.js" crossorigin="anonymous"></script>
+  <title>Banco M&M</title>
+</head>
+
+<body id="bankbody">
+  <nav id="navmenu" class="navbar collapsible-container navbar-expand-lg bg-body-tertiary">
+    <div class="navcontainer">
+      <a data-toggle="collapse" class="collapsiblelogo" href="#">
+        <img id="logo" src="img/logomini.png">
+      </a>
+      <div class="collapsed"><img id="test" src="img/logo.png"></div>
+      <ul>
+        <li>
+          <a class="nav-link active" aria-current="page" href="home.html">
+            <i id="house" class="fa-solid fa-house"></i>
+            <div class="collapsed collapsed-text" id="collapsehome">Home</div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="saldo.html">
+            <i id="card" class="fa-solid fa-money-check-dollar"></i>
+            <div class="collapsed collapsed-text" id="collapsesaldo">Saldo</div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="investimentos.html">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <div class="collapsed collapsed-text" id="collapseinvest">Investimentos</div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="transacoes.html">
+            <i id="handshake" class="fa-solid fa-handshake"></i>
+            <div class="collapsed collapsed-text" id="collapsebank">Transações <b>Bancárias</b></div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="index.html">
+            <i id="user" class="fa-solid fa-user"></i>
+            <div class="collapsed collapsed-text" id="collapselogin">Login</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  <div class="titulo">
+    Banco M&M
+  </div>
+  <div class="titulotext">
+    O Banco M&M é um banco digital que oferece serviços bancários totalmente online. Com ele, você pode realizar suas
+    transações financeiras, como pagamentos, transferências e investimentos através de seu computador.
+  </div>
+  <div id="homecontainer">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="carousel1" src="img/What-Are-The-Basic-Concepts-Of-Forex-Trading.jpeg" class="d-block w-100"
+            alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="carousel2" src="img/a.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="carousel3" src="img/Convert-IRA-to-Gold.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="carousel4" src="img/img3_360_240325.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <script language="JavaScript">
+
+    var collapsible = document.querySelector(".navbar");
+    var content = document.querySelector(".collapsed");
+
+    collapsible.addEventListener("mouseenter", function () {
+      content.style.maxWidth = content.scrollWidth + "px";
+    });
+
+    collapsible.addEventListener("mouseleave", function () {
+      content.style.maxWidth = null;
+    }); 
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
